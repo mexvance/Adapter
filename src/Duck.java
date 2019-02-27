@@ -1,4 +1,4 @@
-public abstract class Duck {
+public abstract class Duck implements IDuck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
     public Duck() {
